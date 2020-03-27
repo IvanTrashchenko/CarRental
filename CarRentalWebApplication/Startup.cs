@@ -1,5 +1,5 @@
 using CarRentalWebApplication.Configuration;
-using CarRentalWebApplication.Data;
+using CarRentalWebApplication.Models;
 
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -10,6 +10,8 @@ using Microsoft.Extensions.Hosting;
 
 namespace CarRentalWebApplication
 {
+
+
     public class Startup
     {
         public Startup(IConfiguration configuration)

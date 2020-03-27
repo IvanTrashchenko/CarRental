@@ -1,10 +1,9 @@
 ﻿using CarRentalWebApplication.Configuration;
-using CarRentalWebApplication.Models;
 
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace CarRentalWebApplication.Data
+namespace CarRentalWebApplication.Models
 {
     public class ApplicationDbContext : IdentityDbContext
     {

@@ -1,4 +1,4 @@
-﻿using CarRentalWebApplication.Data;
+﻿using CarRentalWebApplication.Models;
 
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
