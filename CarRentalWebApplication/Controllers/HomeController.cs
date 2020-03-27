@@ -33,5 +33,10 @@ namespace CarRentalWebApplication.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+        public IActionResult CarTest()
+        {
+            return Redirect("https://localhost:44317/swagger/");
+        }
     }
 }
